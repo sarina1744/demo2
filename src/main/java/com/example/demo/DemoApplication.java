@@ -17,6 +17,10 @@ public class DemoApplication {
 	public String welcome(){
 			return "Hello Revature";
 	}
+	@GetMapping("/guest")
+	public String welcomeGuest(){
+		return "Hello and Welcome Guest";
+	}
 
 
 }
